@@ -1,6 +1,6 @@
 class Book
   attr_accessor :author, :page_count, :title  # remove the attr_accessor for genre
-  attr_reader :genre  # add an attr_reader for genre
+  attr_reader :genre  # add an attr_reader for genre because we want to add customization
 
   GENRES = []
 
